@@ -1,0 +1,504 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+#navbar{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    background-color: green;
+}
+
+#main_icon a img{
+    margin: 15px;
+}
+
+#tags{
+    display: none;
+} 
+#menu{
+    margin: 20px;
+}
+
+
+@media only screen and (min-width:426px){
+    #tags {
+            display: block;
+        }
+        #menu{
+            display: none;
+        }
+} 
+
+/* @media only screen and (max-width:426px) {
+    #menu {
+        display: none;
+    }
+} */
+
+
+#tags a{
+    color: white;
+    margin: 10px;
+    text-decoration: none;
+}
+
+#main_page{
+    background:linear-gradient(rgba(0, 0, 0, .55)),url(https:media.istockphoto.com/id/496266436/photo/four-people-taking-part-in-cooking-class.jpg?s=612x612&w=0&k=20&c=UHVA0xGsfICTtqKO2Simewa4b6kGOLBzeZNi7ZRIUrI=);
+    background-size: 100% 100%;
+    height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#main_page p{
+    font-size: 50px;
+    color: white;
+}
+#main_page button{
+    padding: 20px;
+    border-radius: 20%;
+    font-size: 30px;
+    background-color: green;
+}
+
+/* #whatwedo{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+    align-items: center;
+    margin: 30px;
+} */
+ #whatwedo{
+    margin: 20px;
+    padding: 20px;
+    /* height: 300px; */
+ }
+#whatwedotitle{
+    width:100%;
+    text-align: center;
+    /* margin: 30px; */
+    margin-bottom: 30px;
+}
+
+#whatwedocontent{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+
+#whatwedocontent div{
+    width: 100%;
+    margin: 10px;
+    text-align: center;
+}
+
+@media only screen and (min-width:426px){
+    #whatwedocontent div{
+        width: 20%;
+    }
+}
+
+#whatwedocontent div img{
+    margin-left: 8px;
+    margin-bottom: 10px;
+    
+}
+
+#whywedo{
+    background-color: rgb(10, 220, 10);
+    text-align: center;
+    padding: 50px;
+}
+
+#whytitle{
+    color: gold;
+    margin-bottom:50px ;
+}
+
+#whycontent{
+    color: white;
+    margin: 50px;
+
+}
+#whycontent img{
+    margin: 20px;
+}
+#whytit{
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+#portfolio{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#porttitle{
+    text-align: center;
+    width: 100%;
+    padding: 20px;
+    margin: 20px;
+}
+
+#portfolioimg{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+#portfolioimg img{
+    width: 100%;
+    margin: 10px;
+}
+#portbutton{
+    padding: 20px;
+}
+#portbutton button{
+    padding: 20px;
+    font-size: 20px;
+    background-color: white;
+    color: green;
+    border-radius: 20%;
+    border-color: green;
+
+}
+
+#Newsletter{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #223d61;
+    height: 400px;
+    color: white;
+}
+
+#newtitle{
+    color: white;
+    margin-top: -40px;
+    margin-bottom: 50px;
+    font-size: 30px;
+}
+
+#Newsletter form{
+    margin: 20px;
+}
+
+#Newsletter form input[value]{
+    background-color: green;
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 20%;
+}
+
+#Newsletter form input[type='text']{
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 10px;
+        border-radius: 20%;
+        margin-right: 10px;
+        background-color: #223d61;
+}
+
+@media only screen and (min-width:426px){
+    #Newsletter form input[type='text'] {
+        width: 200px;
+    }
+}
+
+#fruits{
+    margin: 10px;
+}
+
+#fruits div h2{
+    width: 100%;
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+}
+
+#fruitscontent{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.common1{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+.commonimg{
+    padding: 20px;
+}
+.common1 div h1{
+    color: gray;
+    margin-bottom: 20px;
+}
+
+#Blog{
+    padding: 20px;
+    background-color: #f1eee6;
+    text-align: center;
+}
+
+#blogtitle{
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+}
+
+#card{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.common2{
+    border: 2px solid green;
+    height: 200px;
+    padding: 10px;
+    text-align: center;
+    background-color: white;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.common2 p{
+    margin-top: 10px;
+}
+
+.icon{
+    margin: 80px !important;
+}
+
+#Blog button{
+    background-color: green;
+    border-radius: 20%;
+    color: white;
+    padding: 10px;
+    margin: 10px;
+}
+
+/* #contact{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    align-items: center;
+    height: 600px;
+    background-color: #f1eee6;
+    padding: 50px;
+} */
+
+#contact {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    background-color: #f1eee6;
+    padding: 50px;
+    column-gap: 50px;
+}
+
+/* #contactimg{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin-right:70px ;
+    margin-left: -50px;
+    padding: 30px;
+    
+}
+
+#contactimg h2{
+    width: 100%;
+    text-align: center;
+    margin-bottom:10px ;
+} */
+
+#contact {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+
+    background-color: #f1eee6;
+
+    min-height: 400px;
+
+    padding: 70px 12.5% 50px;
+}
+
+
+.common3 {
+    margin: 0;
+    width: 100%;
+}
+
+
+#contact>.common3:first-child {
+    width: 28%;
+}
+
+#contact>.common3:first-child h2 {
+    margin-bottom: 20px;
+}
+
+
+#contactimg {
+    width: 28%;
+
+    display: flex;
+    flex-wrap: wrap;
+
+    justify-content: center;
+    align-items: flex-start;
+
+    padding: 0;
+    margin: 0;
+}
+
+#contactimg h2 {
+    width: 100%;
+
+    text-align: left;
+
+    margin-bottom: 25px;
+}
+
+
+#contactimg img {
+    width: 22%;
+    height: auto;
+
+    margin: 5px;
+}
+
+
+#info {
+    width: 28%;
+    margin: 0;
+}
+
+#info h2 {
+    color: rgb(24, 24, 237);
+    margin-bottom: 20px;
+}
+
+/* #info h2 {
+    color: rgb(24, 24, 237);
+} */
+
+/* @media only screen and (min-width:426px){
+        #contact{
+            flex-wrap: nowrap;
+            height: 400px;
+        }
+    #contactimg{
+        width: 50%;
+    }
+} */
+
+@media only screen and (max-width: 600px) {
+
+    #contact {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: flex-start;
+
+        height: auto;
+        min-height: auto;
+
+        padding: 40px 30px;
+        column-gap: 0;
+        row-gap: 40px;
+    }
+
+
+    #contact>.common3:first-child {
+        width: 48%;
+        margin: 0;
+    }
+
+
+    #contactimg {
+        width: 48%;
+        margin: 0;
+        padding: 0;
+    }
+
+    #contactimg h2 {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    #contactimg img {
+        width: 20%;
+        margin: 3px;
+    }
+
+    #info {
+        width: 100%;
+        margin: 0;
+    }
+
+    #info h2 {
+        margin-bottom: 20px;
+    }
+}
+
+@media only screen and (min-width: 601px) {
+
+    #contact {
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        align-items: flex-start;
+
+        height: 400px;
+        padding: 50px;
+        column-gap: 20px;
+    }
+
+
+    #contact>.common3:first-child {
+        width: 28%;
+        margin: 0;
+    }
+
+
+    #contactimg {
+        width: 28%;
+        margin: 0;
+        padding: 0;
+    }
+
+    #info {
+        width: 28%;
+        margin: 0;
+    }
+}
+
+#info h2{
+    color: rgb(24, 24, 237);
+}
+
+
+
